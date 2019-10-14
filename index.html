@@ -17,16 +17,20 @@
 
 	<!--Font Awesome-->
 	<link rel="stylesheet" href="libs/fontawesome/css/all.css">
+	<!--Bootstrap-->
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--Mmenu-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="libs/mmenu/mmenu.css">
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/fonts.css">
 	<link rel="stylesheet" href="./css/media.css">
 	<link rel="stylesheet" href="./css/style.css">
-
 	<title>Main</title>
 </head>
 <body>
-	
+
+
 	<div class="first-block">
 		<div class="header">
 			<div class="header-menu-logo">
@@ -46,6 +50,22 @@
 					<a class="nav-link" href="#">контакт</a>
 				</li>
 			</ul>
+			<!--Mobile menu-->
+			<button type="button" id="menu-button" class="btn btn-dark">Dark</button>
+			<nav id="my-menu">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">About us</a>
+						<ul>
+							<li><a href="#">History</a></li>
+							<li><a href="#">The team</a></li>
+							<li><a href="#">Our address</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<!--/.Mobile menu-->
 		</div>
 		<div class="first-content">
 			<div class="f-left-block">
@@ -248,7 +268,10 @@
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script src="./js/bootstrap.bundle.min.js"></script>
 	<script src="libs/parallax.js-1.5.0/parallax.js"></script>
-	<script type="text/javascript" defer src="libs/fontawesome/js/all.js"></script>
+	<script type="text/javascript" defer src="libs/fontawesome/js/
+	all.js"></script>
+	<!--Mmenu-->
+	<script type="text/javascript" src="libs/mmenu/mmenu.js"></script>
 	<script src="./js/script.js"></script>
 </body>
 </html>
