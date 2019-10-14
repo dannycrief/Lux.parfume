@@ -1,0 +1,75 @@
+/*Lobster Font*/
+@font-face {
+	src: url('../fonts/Lobster/Lobster-Regular.ttf');
+	font-family: 'Lobster';
+	font-weight: 400;
+}
+
+/*Cabin Font*/
+@font-face {
+	src: url('../fonts/Cabin/Cabin-Bold.ttf');
+	font-family: 'Cabin-Bold';
+	font-weight: 800;
+}
+
+@font-face {
+	src: url('../fonts/Cabin/Cabin-BoldItalic.ttf');
+	font-family: 'Cabin';
+	font-weight: 600;
+}
+
+@font-face {
+	src: url('../fonts/Cabin/Cabin-Italic.ttf');
+	font-family: 'Cabin';
+	font-weight: 400;
+}
+
+@font-face {
+	src: url('../fonts/Cabin/Cabin-Medium.ttf');
+	font-family: 'Cabin';
+	font-weight: 800;
+}
+
+@font-face {
+	src: url('../fonts/Cabin/Cabin-MediumItalic.ttf');
+	font-family: 'Cabin';
+	font-weight: 400;
+}
+
+@font-face {
+	src: url('../fonts/Cabin/Cabin-Regular.ttf');
+	font-family: 'Cabin';
+	font-weight: 800;
+}
+
+@font-face {
+	src: url('../fonts/Cabin/Cabin-SemiBold.ttf');
+	font-family: 'Cabin';
+	font-weight: 800;
+}
+
+@font-face {
+	src: url('../fonts/Cabin/Cabin-SemiBoldItalic.ttf');
+	font-family: 'Cabin';
+	font-weight: 700;
+}
+
+/*Bad script*/
+@font-face {
+	src: url('../fonts/BadScript/BadScript-Regular.ttf');
+	font-family: 'Bad Script';
+	font-weight: 400;
+}
+/*Russo One*/
+@font-face {
+	src: url('../fonts/RussonOne/RussoOne-Regular.ttf');
+	font-family: 'Russo One';
+	font-weight: 400;
+}
+
+/*Oswald*/
+@font-face {
+	src: url('../fonts/Oswald/Oswald-Regular.ttf');
+	font-family: 'Oswald';
+	font-weight: 400;
+}

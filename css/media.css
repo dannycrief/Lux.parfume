@@ -1,0 +1,142 @@
+@media (max-width: 576px) {
+  .first-block {
+    
+  }
+  .header {
+    flex-direction: column;
+    height: 120px;
+  }
+  .header-menu-logo {
+    position: relative;
+  }
+  .justify-content-center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .f-left-block {
+    width: 50vw;
+    display: none;
+  }
+  .first-content {
+    display: none;
+  }
+
+
+
+  .fourth-block .row {
+    flex-direction: column;
+  }
+
+  .item-pressent .col {
+    margin: 50px 0 0 0;
+  }
+
+  .f-two-wrapper {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .first-block {
+    height: 100vh;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .header-menu-logo {
+    position: relative;
+  }
+  .first-content {
+    display: flex;
+  }
+
+
+  
+  .fourth-block .row {
+    flex-direction: column;
+  }
+
+  .item-pressent .col {
+    margin: 50px 0 0 0;
+  }
+
+  .f-two-wrapper {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .first-block {
+    height: 100vh;
+  }
+  .header {
+    height: 80px;
+    flex-direction: column;
+  }
+  .header-menu-logo {
+    position: relative;
+  }
+  .f-left-block {
+    width: 50vw;
+  }
+  .first-content {
+    height: calc(100vh - 80px);
+    display: flex;
+  }
+
+
+  .fourth-block .row {
+    flex-direction: column;
+  }
+
+  .item-pressent .col {
+    margin: 50px 0 0 0;
+  }
+
+  .f-two-wrapper {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-block {
+    height: 100vh;
+  }
+  .header {
+    height: 80px;
+    flex-direction: row;
+  }
+  .header-menu-logo {
+    position: absolute;
+  }
+  .f-left-block {
+    width: 50vw;
+  }
+  .first-content {
+    height: calc(100vh - 80px);
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    height: 80px;
+    flex-direction: row;
+  }
+  .header-menu-logo {
+    position: absolute;
+  }
+  .f-left-block {
+    width: 50vw;
+  }
+  .first-content {
+    height: calc(100vh - 80px);
+    display: flex;
+  }
+
+
+  .fourth-block .row {
+    flex-direction: row;
+  }
+}
