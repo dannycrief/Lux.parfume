@@ -29,6 +29,12 @@ body {
 /*Mobile menu starts*/
 .header .btn {
 	margin-right: 30px;
+	justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    width: 50px;
 }
 /*Mobile menu ends*/
 

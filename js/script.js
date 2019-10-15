@@ -7,6 +7,7 @@ $(document).ready(function () {
 		"position-right",
 		"theme-dark"
 		],
+
 		"counters": true,
 		"navbars": [
 		{
@@ -15,7 +16,7 @@ $(document).ready(function () {
 			"searchfield"
 			]
 		}
-		]
+		]	
 	});
 
 	$("#menu-button").click(function () {
