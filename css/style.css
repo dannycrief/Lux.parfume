@@ -568,7 +568,7 @@ body {
 	color: #000000;
 }
 
-.eighth-block .btn a {
+.eighth-block  .btn{
 	font-family: Russo One;
 	font-style: normal;
 	font-weight: normal;
@@ -578,6 +578,35 @@ body {
 
 	color: #FFFFFF;
 }
+
+
+
+/*MODAL*/
+.modal-content {
+	background-color: lightpink;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: Oswald;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-control {
+	font-family: Oswald;
+}
+
+label {
+	font-family: Oswald;
+}
+
+.modal-footer {
+	justify-content: center;
+}
+
+
 
 /*Nineth block*/
 .nineth-block {
