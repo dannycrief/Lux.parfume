@@ -38,10 +38,7 @@ body {
 }
 /*Mobile menu ends*/
 
-.header-menu-logo {
-	left: 0;
-	margin-left: 30px;
-}
+
 
 .header-menu-logo p {
 	font-family: Lobster;
@@ -61,8 +58,6 @@ body {
 	font-weight: 800;
 	color: #000;
 	text-transform: uppercase;
-	padding: 0 40px;
-	font-size: 17px;
 	transition: all .2s ease-in-out;
 }
 
@@ -78,6 +73,7 @@ body {
 }
 
 .f-left-block {
+	width: 50vw;
 	background-color: rgba(0, 0, 0,0.6);
 }
 
