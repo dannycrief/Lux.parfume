@@ -93,10 +93,22 @@ body {
 
 .f-left-block .f-circle-content {
 	background-color: rgba(54, 167, 231, 0.4);
+	transition: background 0.25s ease;
+}
+
+.f-left-block .f-circle-content:hover {
+	background-color: rgba(54, 167, 231, 0.8);
+	transition: background 0.25s ease;
 }
 
 .f-right-block .f-circle-content {
 	background-color: rgba(249, 50, 50, 0.4);
+	transition: background 0.25s ease;
+}
+
+.f-right-block .f-circle-content:hover {
+	background-color: rgba(249, 50, 50, 0.8);
+	transition: background 0.25s ease;
 }
 
 .f-circle-content {
