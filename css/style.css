@@ -1,11 +1,4 @@
-body {
-	height: 5000px;
-}
-
 /*First Block*/
-
-
-
 .header {
 	display: flex;
 	
@@ -214,7 +207,7 @@ body {
 	height: 190px;
 	width: 190px;
 	border-radius: 20px;
-	background: rgba(216, 134, 96, 0.7);
+	background: rgba(255,173,173,0.81);
 	transform: rotate(45deg);
 	display: flex;
 	justify-content: center;
@@ -260,7 +253,7 @@ body {
 	height: 50px;
 	width: 260px;
 
-	background: rgba(207, 150, 126, .5);
+	background: rgba(255,173,173, 0.6);
 	border: none;
 }
 
@@ -270,7 +263,7 @@ body {
 }
 
 .second-button .btn:hover {
-	background: rgb(207, 150, 126);
+	background: rgba(255,173,173,1);
 }
 
 /*Third block*/
@@ -313,7 +306,7 @@ body {
 	text-align: center;
 	justify-content: center;
 
-	color: #D1987D;
+	color: rgba(255,173,173,1);
 }
 
 .f-h2 {
@@ -426,7 +419,7 @@ body {
 	text-align: center;
 	justify-content: center;
 
-	color: #D1987D;
+	color: rgba(255,173,173,1);
 }
 
 .sixth-block .s-h1 {
@@ -465,7 +458,7 @@ body {
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
-	background: #D1987D;
+	background: rgba(255,173,173,1);
 }
 
 .six-block-circle {
@@ -531,12 +524,12 @@ body {
 	width: 260px;
 
 	color: #000000;
-	background: rgba(207, 150, 126, .5);
+	background: rgba(255,173,173,0.5);
 	border: none;
 }
 
 .sixth-button .btn:hover {
-	background: rgb(207, 150, 126);
+	background: rgba(255,173,173,1);
 }
 
 /*Seventh block*/
@@ -555,7 +548,7 @@ body {
 .eighth-block {
 	width: 100%;
 	height: 100px;
-	background-color: #EDB69E;
+	background-color: rgba(255,173,173,0.6);
 	display: flex;
 	align-items: center;
 }
@@ -651,7 +644,6 @@ label {
 	font-family: Lobster;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 62px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -689,4 +681,9 @@ label {
 	text-align: center;
 
 	color: #FFFFFF;
+}
+
+.white-line {
+	height: 20px;
+	background-color: rgba(255,173,173, 0.81);
 }

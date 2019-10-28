@@ -28,8 +28,6 @@
     display: none;
   }
 
-
-
   .fourth-block .row {
     flex-direction: column;
   }
@@ -56,6 +54,21 @@
   .nineth-block .h1 {
     font-size: 30px;
     margin-top: 0;
+  }
+
+  .nineth-block .btn {
+    display: none;
+  }
+
+  .t-first, .t-second, .t-third {
+    margin: 30px 0;
+  }
+
+  .t-first .btn {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
   }
 }
 
@@ -104,6 +117,20 @@
   .nineth-block .h1 {
     font-size: 30px;
     margin-top: 0;
+  }
+
+  /*Footer*/
+
+
+  .t-first, .t-second, .t-third {
+    margin: 30px 0;
+  }
+
+  .t-first .btn {
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
   }
 }
 
@@ -172,8 +199,6 @@
     margin: 50px 0 0 0;
   }
 
-
-
   .nineth-block .h2 {
     margin-top: 80px;
     font-size: 20px;
@@ -183,6 +208,19 @@
     font-size: 30px;
     margin-top: 30px;
   }
+
+  /*Footer*/
+  .t-first, .t-second, .t-third {
+    margin: 50px 0;
+  }
+
+  .t-first .btn {
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -238,6 +276,28 @@
     font-size: 30px;
     margin-top: 30px;
   }
+  /*Footer*/
+  .tenth-block {
+    height: 290px;
+  }
+
+  .t-first .btn {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .t-first, .t-second, .t-third{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .tenth-block .col-md-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -272,29 +332,40 @@
     margin: 0 auto;
     justify-content: center;
   }
-  /*
-  .s-1-block, .s-2-block,
-  .s-3-block, .s-4-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 30px 0 20px;
-    }*/
-
-
-    .fourth-block .row {
-      flex-direction: row;
-    }
-
-
-
-    .nineth-block .h2 {
-      margin-top: 80px;
-      font-size: 40px;
-    }
-
-    .nineth-block .h1 {
-      font-size: 30px;
-      margin-top: 30px;
-    }
+  
+  .fourth-block .row {
+    flex-direction: row;
   }
+
+  .nineth-block .h2 {
+    margin-top: 80px;
+    font-size: 40px;
+  }
+
+  .nineth-block .h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  /*Footer*/
+  .tenth-block {
+    height: 290px;
+  }
+
+  .t-first, .t-second, .t-third{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .t-first .btn {
+    width: 90%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .tenth-block .col-md-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

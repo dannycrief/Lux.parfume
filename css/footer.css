@@ -1,0 +1,160 @@
+.tenth-block {
+	background-color: #000;
+	background-image: url(../img/img-noise.png);
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.t-first, .t-second, .t-third {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.t-first .btn {
+	background-color: rgba(255,173,173,0.85);
+}
+
+.t-first .btn:hover {
+	background-color: rgba(255,173,173,1)
+}
+
+.t-second {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.t-first .h1,
+.t-second .h1,
+.t-third .h1 {
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.t-first ul li {
+	margin: 14px 0;
+}
+
+.t-first ul li .fa-phone-square-alt {
+	font-size: 19px;
+	margin-right: 7px;
+}
+
+.t-second ul li {
+	margin: 14px 0;
+}
+
+.t-second ul li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+}
+
+.t-second ul li>a:hover {
+	color: #FFCECE;
+}
+
+.t-third a{
+	margin-top: 14px;
+	text-decoration: none
+	
+}
+
+.t-third .fa-instagram {
+	font-size: 50px;
+	color: #fff;
+}
+
+.t-third .fa-instagram:hover {
+	color: #FFCECE;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .t-first, .t-second, .t-third {
+    margin: 30px 0;
+  }
+
+  .t-first .btn {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
+  /*Footer*/
+  .t-first, .t-second, .t-third {
+    margin: 30px 0;
+  }
+
+  .t-first .btn {
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .t-first .btn {
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+    .tenth-block {
+    height: 290px;
+  }
+
+  .t-first .btn {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .t-first, .t-second, .t-third{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .tenth-block .col-md-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tenth-block {
+    height: 290px;
+  }
+
+  .t-first, .t-second, .t-third{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .t-first .btn {
+    width: 90%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .tenth-block .col-md-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
