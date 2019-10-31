@@ -1,5 +1,5 @@
 body {
-	background-color: #000;
+	background-color: black;
 }
 
 /*header*/
@@ -60,24 +60,19 @@ body {
 
 .header .nav li a:hover {
 	transform: scale(1.2);
-	color: #fff;
+	color: #F57913;
 }
 
 /*Promos*/
 .first-content {
 	width: 100%;
-	height: calc(100vh-90px);
+	height: calc(100vh - 90px);
 	margin: 0 0 80px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
-
-.f-rectangle {
-	height: 500px;
-	width: 100%;
-	background: rgba(255, 255, 255, 0.15);
+	background-image: url(../img/img-noise.png);
 }
 
 .first-content .col-md-12 {
@@ -87,7 +82,7 @@ body {
 }
 
 .first-content .h1 {
-	font-family: Cabin;
+	font-family: Lobster;
 	text-align: center;
 	text-transform: uppercase;
 	font-style: normal;
@@ -95,7 +90,7 @@ body {
 	font-size: 45px;
 	line-height: 56px;
 
-	color: #fff;
+	color: rgb(255, 215, 0);
 }
 
 .first-content .h3 {
@@ -112,7 +107,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 
-	color: #fff;
+	color: rgb(255, 215, 0);
 
 
 }
@@ -126,15 +121,16 @@ body {
 .promo {
 	width: 310px;
 	height: 310px;
+
 	margin: 0 85px;
+
 	border-radius: 160px;
-	box-shadow: 0px 4px 4px
-	#000;
+
+	box-shadow: 0px 4px 4px #FF0000;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color:
-	rgba(255, 255, 2550, 0.4);
 }
 
 .promo p {
@@ -146,7 +142,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 
-	color: #000;
+	color: rgb(255, 215, 0);
 }
 
 /*Second block*/
@@ -168,11 +164,7 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 
-	color: #fff;
-}
-
-.second-block .h1 {
-	margin: 0 0 23px 0;	
+	color: rgb(255, 215, 0);
 }
 
 .item {
@@ -184,15 +176,10 @@ body {
 	/*background-color: #000000;*/
 }
 
-.before-items {
-	background-color: #fff;
-	padding: 0 30px 30px 30px;
-}
-
 .item:hover {
-	-webkit-box-shadow: 0px 0px 29px 25px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0px 0px 29px 25px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 0px 29px 25px rgba(0, 0, 0, 0.5);;
+	-webkit-box-shadow: 0px 0px 29px 25px rgba(255,173,173,0.81);
+	-moz-box-shadow: 0px 0px 29px 25px rgba(255,173,173,0.81);
+	box-shadow: 0px 0px 29px 25px rgba(255, 255, 255, 0.9);;
 	transition: 0.35s all;
 }
 
@@ -200,7 +187,7 @@ body {
 	margin: 22px;
 	width: 75px;
 	height: 75px;
-	background: rgba(255, 100, 121, 1);
+	background: #FF6479;
 	color: #fff;
 	position: absolute;
 	display: flex;
@@ -208,13 +195,13 @@ body {
 	justify-content: center;
 	right: 0;
 
-	transition: background-color 0.8s ease all;
+	transition: background-color 0.8s ease;
 	border-radius: 50px;
 }
 
 .item:hover .promotion {
-	background-color: rgba(255, 100, 121, 0.75);
-	transition: background-color 0.8s ease all;
+	background-color: #3CFFE8;
+	transition: 0.8s ease;
 }
 
 .promotion p {
@@ -278,11 +265,11 @@ body {
 	width: 245px;
 
 	color: #000000;
-	background-color: rgba(155, 155, 155, 0.5);
+	background-color: #3CFFE8;
 } 
 
 .btn-light:hover {
-	background-color: rgba(155, 155, 155, 0.75);
+	background-color: #16E4FF;
 	border-color: none;
 }
 
@@ -323,7 +310,7 @@ body {
 
 .nums ul a {
 	font-size: 20px;
-	color: #fff;
+	color: black;
 	text-decoration: none;
 	transition: color 0.25s ease;
 }
