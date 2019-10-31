@@ -155,15 +155,12 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	margin-top: 120px;
-}
 
-.second-block {
 	font-family: Cabin;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
 	line-height: 50px;
-	display: flex;
 	align-items: center;
 	text-align: center;
 	text-transform: uppercase;

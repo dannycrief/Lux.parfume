@@ -62,17 +62,18 @@
 /*Promos*/
 .first-content {
 	width: 100%;
-	height: 500px;
-	margin: 80px 0 80px 0;
-
+	height: calc(100vh-90px);
+	margin: 0 0 80px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
 
-
-
-	background-color: #FFD1D1;
+.f-rectangle {
+	height: 500px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.15);
 }
 
 .first-content .col-md-12 {
@@ -82,7 +83,7 @@
 }
 
 .first-content .h1 {
-	font-family: Lobster;
+	font-family: Cabin;
 	text-align: center;
 	text-transform: uppercase;
 	font-style: normal;
@@ -151,20 +152,18 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-}
+	margin-top: 120px;
 
-.second-block {
 	font-family: Cabin;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
 	line-height: 50px;
-	display: flex;
 	align-items: center;
 	text-align: center;
 	text-transform: uppercase;
 
-	color: #000000;
+	color: #000;
 }
 
 .item {
@@ -187,7 +186,7 @@
 	margin: 22px;
 	width: 75px;
 	height: 75px;
-	background: #FF6479;
+	background: rgba(255, 100, 121, 1);
 	color: #fff;
 	position: absolute;
 	display: flex;
@@ -200,7 +199,7 @@
 }
 
 .item:hover .promotion {
-	background-color: #3CFFE8;
+	background-color: rgba(255, 100, 121, 0.75);
 	transition: 0.8s ease;
 }
 
@@ -265,11 +264,11 @@
 	width: 245px;
 
 	color: #000000;
-	background-color: #3CFFE8;
+	background-color: rgba(255, 100, 121, 0.75);
 } 
 
 .btn-light:hover {
-	background-color: #16E4FF;
+	background-color: rgba(255, 100, 121, 1);
 	border-color: none;
 }
 
