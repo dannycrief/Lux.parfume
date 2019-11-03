@@ -57,6 +57,23 @@
     font-size: 15px;
     line-height: 15px;
   }
+
+
+  /*Items content*/
+  .item-1 {
+
+  }
+
+  .before-items {
+    width: 100%;
+  }
+
+  .row-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 75px 77px 50px 77px;
+  }
 }
 
 @media (min-width: 321px) {
@@ -88,10 +105,7 @@
     height: 100vh;
   }
 
-  .first-content {
-
-  }
-
+  
   .first-content .h1 {
     font-size: 25px;
     line-height: 35px;
@@ -111,15 +125,86 @@
   }
 
   .promo {
-    width: 150px;
-    height: 150px;
+    max-width: 200px;
+    max-height: 200px;
     margin-top: 7px;
+    width: 180px;
+    height: 180px;
   }
 
   .promo p {
     font-size: 18px;
     line-height: 24px;
   }
+
+  /*Items content*/
+  .before-items {
+    width: 100%;
+    padding: 0;
+  }
+
+  .item {
+    max-width: 48%;
+    height: 290px;
+    width: 192px;
+  }
+
+  .promotion {
+    margin: 22px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .promotion p {
+    font-size: 24px;
+  }
+
+  .item-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .item-name {
+    font-size: 18px;
+    display: flex;
+    margin: 0 5px;
+    justify-content: center;
+  }
+
+  .item-text {
+    justify-content: space-around;
+    margin: 0 20px;
+  }
+
+  .item-text p {
+    line-height: 0;
+    display: flex;
+  }
+
+  .price-original {
+    font-size: 13px;
+  }
+
+  .discount-price {
+    font-size: 15px;
+  }
+
+  .item button {
+    line-height: 0;
+    margin: 0;
+    height: 30px;
+    width: 85px;
+  }
+
+  .row-1, .row-2, .row-3,
+  .row-4, .row-5, .row-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto; 
+  }
+
+  /*Items responsive design ended*/
 }
 
 @media (min-width: 576px) {
@@ -190,6 +275,75 @@
     font-size: 25px;
     line-height: 35px;
   }
+
+  /*Items content*/
+  .before-items {
+    width: 100%;
+    padding: 0;
+  }
+
+  .item {
+    max-width: 48%;
+    height: 290px;
+    width: 192px;
+  }
+
+  .promotion {
+    margin: 22px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .promotion p {
+    font-size: 24px;
+  }
+
+  .item-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .item-name {
+    font-size: 18px;
+    display: flex;
+    margin: 0 5px;
+    justify-content: center;
+  }
+
+  .item-text {
+    justify-content: space-around;
+    margin: 0 20px;
+  }
+
+  .item-text p {
+    line-height: 0;
+    display: flex;
+  }
+
+  .price-original {
+    font-size: 13px;
+  }
+
+  .discount-price {
+    font-size: 15px;
+  }
+
+  .item button {
+    line-height: 0;
+    margin: 0;
+    height: 30px;
+    width: 85px;
+  }
+
+  .row-1, .row-2, .row-3,
+  .row-4, .row-5, .row-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto; 
+  }
+
+  /*Items responsive design ended*/
 }
 
 @media (min-width: 768px) {
@@ -261,6 +415,75 @@
     font-size: 28px;
     line-height: 34px;
   }
+
+  /*Items content*/
+  .before-items {
+    width: 100%;
+    padding: 0;
+  }
+
+  .item {
+    max-width: 48%;
+    height: 290px;
+    width: 192px;
+  }
+
+  .promotion {
+    margin: 22px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .promotion p {
+    font-size: 24px;
+  }
+
+  .item-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .item-name {
+    font-size: 18px;
+    display: flex;
+    margin: 0 5px;
+    justify-content: center;
+  }
+
+  .item-text {
+    justify-content: space-around;
+    margin: 0 20px;
+  }
+
+  .item-text p {
+    line-height: 0;
+    display: flex;
+  }
+
+  .price-original {
+    font-size: 13px;
+  }
+
+  .discount-price {
+    font-size: 15px;
+  }
+
+  .item button {
+    line-height: 0;
+    margin: 0;
+    height: 30px;
+    width: 85px;
+  }
+
+  .row-1, .row-2, .row-3,
+  .row-4, .row-5, .row-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto; 
+  }
+
+  /*Items responsive design ended*/
 }
 
 @media (min-width: 992px) {
@@ -323,11 +546,6 @@
     flex-direction: column;
   }
 
-  .row-1 {
-    margin-top: 75px;
-    margin-bottom: 50px;
-  }
-
   .row-2, .row-3, .row-4, .row-5, .row-6 {
     margin-top: 50px;
   }
@@ -336,6 +554,20 @@
   .row-1, .row-2, .row-3, .row-4, .row-5, .row-6 {
     display: flex;
     flex-direction: row;
+  }
+
+  /*Items content*/
+  .item {
+
+  }
+
+  .before-items {
+    width: 100%;
+  }
+
+  .row-1 {
+    flex-wrap: nowrap;
+    justify-content: space-around;
   }
 }
 
@@ -431,4 +663,16 @@
   .item-4{
     margin: 0;
   }
+
+  /*Items content*/
+  .before-items {
+    width: 80%;
+    padding: 0 30px 30px 30px;
+  }
+
+  .row-1 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
 }

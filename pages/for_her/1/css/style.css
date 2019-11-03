@@ -265,7 +265,7 @@ body {
 
 .before-items {
 	background-color: rgba(255, 255, 255, 0.75);
-	padding: 0 30px 30px 30px;
+	/*padding: 0 30px 30px 30px;*/
 }
 
 .f-rectangle {
@@ -347,12 +347,11 @@ body {
 }
 
 .item {
-	width: 280px;
-	height: 470px;
+	/*min-width: 280px;
+	min-height: 470px;*/
 	position: relative;
 	border-radius: 7px;
 	transition: box-shadow 0.8s ease;
-	/*background-color: #000000;*/
 }
 
 .item:hover {
@@ -362,10 +361,10 @@ body {
 	transition: 0.35s all;
 }
 
-.promotion {
+.promotion {/*
 	margin: 22px;
 	width: 75px;
-	height: 75px;
+	height: 75px;*/
 	background: rgba(255, 100, 121, 1);
 	color: #fff;
 	position: absolute;
@@ -387,7 +386,7 @@ body {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 27px;
+	/*font-size: 27px;*/
 	line-height: 33px;
 
 	color: #FFFFFF;
@@ -398,34 +397,34 @@ body {
 }
 
 .item-name {
-	font-size: 25px;
+	/*font-size: 25px;*/
 	font-family: Roboto;
 	color: black
 }
 
 .item-text {
 	display: flex;
-	justify-content: space-between;
-	margin: 15px 20px 0 20px;
+	/*justify-content: space-between;
+	margin: 15px 20px 0 20px;*/
 	text-transform: lowercase;
 }
 
 .price-original {
 	text-decoration: line-through;
-	font-size: 15px;
+	/*font-size: 15px;*/
 	color: grey;
 }
 
 .discount-price {
 	color: #FF8992;
-	font-size: 20px;
+	/*font-size: 20px;*/
 }
 
 .item-text p{
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 23px;
+	/*line-height: 23px;*/
 }
 
 
@@ -436,12 +435,12 @@ body {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 17px;
-	line-height: 21px;
+	/*line-height: 21px;*/
 	text-transform: uppercase;
-	margin-top: 40px;
-
+	/*margin-top: 40px;*/
+/*
 	height: 45px;
-	width: 245px;
+	width: 245px;*/
 
 	color: #000000;
 	background-color: rgba(255, 100, 121, 0.75);
