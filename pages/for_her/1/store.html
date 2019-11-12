@@ -156,23 +156,47 @@
 						<div class="promotion">
 							<p>-85%</p>
 						</div>
-						<div class="item-image">
-							<img src="./img/1.jpg" alt="" max-height="260" max-width="260" class="item-img">
+						<div class="item-image" onclick="showText1()">
+							<img src="./img/f1.jpg" alt="" max-height="260" max-width="260" class="item-img">
 						</div>
 						<div class="item-name">
-							<p>Some name</p>
+							<p id="i-name">Givenchy L'Interdit 80 ml</p>
 						</div>
 						<div class="item-text">
-							<p class="price-original">2 222 грн</p>
-							<p class="discount-price">300 грн</p>
+							<p class="price-original">1 759 грн</p>
+							<p class="discount-price">569 грн</p>
 						</div>
-						<button type="button" class="btn btn-light">Заказать</button>
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModalScrollable">О товаре</button>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-scrollable" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title h6" id="exampleModalScrollableTitle">Givenchy L'Interdit 80 ml</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white; font-size: 50px; margin: 0; padding: 0; display: flex; justify-content: flex-end;">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<p style="display: flex; font-size: 18px; text-align: center; text-transform: none; margin: 0; padding: 0; line-height: 25px;">
+											Чувственный, манящий аромат Givenchy L'Interdit — это воплощение сладостного запрета, к которому хочется прикоснуться, вкусить его, ощутить этот магнетизм и насладиться победой. Восточно-цветочная мелодия окутывает пленительным, пьянящим чувством безмятежного счастья, абсолютного умиротворения и внутренней гармонии. Эта парфюмерная музыка учит наслаждаться каждым мгновением жизни, позволяя себе полностью отдаться сокровенным желаниям.
+											Освежающее и слегка терпковатое звучание бергамота оттеняется манящим вишневым пением и медово-пьянящим грушевым очарованием, создавая пикантное и роскошное вступление. Нежные акценты флердоранжа, насыщенные полутона жасмина и душистые нюансы туберозы играют в сердце композиции, плавно перетекая в дымно-смолистые аккорды ветивера, бальзамные мотивы пачулей и пленительный ванильно-карамельный шлейф.
+										</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+										<button type="button" class="btn btn-primary">Заказать</button>
+									</div>
+								</div>
+							</div>
+						</div>					
 					</div>
 					<div class="item item-2">
 						<div class="promotion">
 							<p>-85%</p>
 						</div>
-						<div class="item-image">
+						<div class="item-image" onclick="showText2()">
 							<img src="./img/1.jpg" alt="" height="260" width="260" max-height="260" max-width="260" class="item-img">
 						</div>
 						<div class="item-name">
@@ -608,5 +632,6 @@
 	<!--Mmenu-->
 	<script type="text/javascript" src="../../../libs/mmenu/mmenu.js"></script>
 	<script src="../../../js/script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -523,7 +523,11 @@
 
   .item-text p {
     line-height: 0;
+    display: flex;font-size: 15px;
     display: flex;
+    margin: 10px 5px 0 5px;
+    justify-content: center;
+    line-height: 22px;
   }
 
   .price-original {
@@ -733,10 +737,11 @@
   }
 
   .item-name {
-    font-size: 25px;
+    font-size: 18px;
     display: flex;
-    margin: 0 5px;
+    margin: 10px 5px 0 5px;
     justify-content: center;
+    line-height: 22px;
   }
 
   .item-text {
