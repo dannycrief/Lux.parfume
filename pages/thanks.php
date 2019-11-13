@@ -47,9 +47,9 @@
 	}
 	//email to send
 	$address = "step.kozbvb@gmail.com";
-	$phone_number = $userphonenumber;
+	$note_text = "Тема:  New user wrote! \r\nName: $username \r\nSurname: $usersurname \r\nEmail: $userEmail \r\nPhone number: $userphonenumber";
 	if (isset($username)) {
-		mail($address, "New user wrote!", $phone_number, "Content-type: text/lain; widows:-1251");
+		mail($address, "New user wrote!", $note_text);
 		echo "<p>Your email was sent</p>";
 	}
 
