@@ -510,7 +510,8 @@
   }
 
   .item-name {
-    font-size: 18px;
+    font-size: 13px;
+    line-height: 5px;
     display: flex;
     margin: 0 5px;
     justify-content: center;

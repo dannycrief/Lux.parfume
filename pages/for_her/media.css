@@ -85,15 +85,16 @@
   }
 
   .item-name {
-    font-size: 18px;
+    font-size: 13px;
     display: flex;
+    line-height: 15px;
     margin: 0 5px;
     justify-content: center;
   }
 
   .item-text {
     justify-content: space-around;
-    margin: 0 20px;
+    margin: 15px 20px 10px 20px;
   }
 
   .item-text p {
@@ -223,15 +224,16 @@
   }
 
   .item-name {
-    font-size: 18px;
+    font-size: 13px;
     display: flex;
+    line-height: 15px;
     margin: 0 5px;
     justify-content: center;
   }
 
   .item-text {
     justify-content: space-around;
-    margin: 0 20px;
+    margin: 15px 20px 10px 20px;
   }
 
   .item-text p {
@@ -370,7 +372,8 @@
   }
 
   .item-name {
-    font-size: 18px;
+    font-size: 13px;
+    line-height: 15px;
     display: flex;
     margin: 0 5px;
     justify-content: center;
@@ -378,7 +381,7 @@
 
   .item-text {
     justify-content: space-around;
-    margin: 0 20px;
+    margin: 15px 20px 10px 20px;
   }
 
   .item-text p {
@@ -510,7 +513,8 @@
   }
 
   .item-name {
-    font-size: 18px;
+    font-size: 13px;
+    line-height: 15px;
     display: flex;
     margin: 0 5px;
     justify-content: center;
@@ -523,7 +527,8 @@
 
   .item-text p {
     line-height: 0;
-    display: flex;font-size: 15px;
+    display: flex;
+    font-size: 15px;
     display: flex;
     margin: 10px 5px 0 5px;
     justify-content: center;
@@ -764,7 +769,7 @@
 
   .item button {
     line-height: 21px;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 45px;
     width: 245px;
   }
