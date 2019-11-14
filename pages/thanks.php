@@ -31,6 +31,12 @@
 			unset($userphonenumber);
 		}
 	}
+	if (isset($_POST['item'])) {
+		$item = $_POST['item'];
+		if ($item == '') {
+			unset($item);
+		}
+	}
 
 
 	if (isset($username)) {
@@ -45,14 +51,17 @@
 		$userphonenumber = stripslashes($userphonenumber);
 		$userphonenumber = htmlspecialchars($userphonenumber);
 	}
+	if (isset($item)) {
+		$item = stripslashes($item);
+		$item = htmlspecialchars($item);
+	}
 	//email to send
 	$address = "step.kozbvb@gmail.com";
-	$note_text = "Тема:  New user wrote! \r\nName: $username \r\nSurname: $usersurname \r\nEmail: $userEmail \r\nPhone number: $userphonenumber";
+	$note_text = "Тема:  New user wrote! \r\nName: $username \r\nSurname: $usersurname \r\nEmail: $userEmail \r\nPhone number: $userphonenumber \r\nНазвание товара: $item";
 	if (isset($username)) {
 		mail($address, "New user wrote!", $note_text);
 		echo "<p>Your email was sent</p>";
 	}
-
 	?>
 </body>
 </html>
