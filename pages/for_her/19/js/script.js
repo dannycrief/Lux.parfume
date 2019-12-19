@@ -16,18 +16,18 @@ function checkItem(number){
 
 
 let nameItems = [
-	"Montale Pretty Fruity 100ml",
-	"Montale Pure Gold 100ml",
-	"Montale Dark Purple 100 ml",
-	"Новая Заря Тайна парфюм 16 ml",
-	"Bvlgari Omnia Coral 65 ml",
-	"Armand Basi Happy In Red 100 ml",
-	"Armand Basi In Red Eau de Parfum 100 ml",
-	"Armand Basi In Red Blooming Bouquet 100 ml",
-	"Montale Mukhallat 100 ml",
-	"Montale Mango Manga 100 ml",
-	"Montale Wild Pears 100ml",
-	"Antonio Banderas Splash Blue Seduction 100ml",
+	"Montale Pretty Fruity 100ml",1
+	"Montale Pure Gold 100ml",2
+	"Montale Dark Purple 100 ml",3
+	"Новая Заря Тайна парфюм 16 ml",4
+	"Bvlgari Omnia Coral 65 ml",5
+	"Armand Basi Happy In Red 100 ml",6
+	"Armand Basi In Red Eau de Parfum 100 ml",7
+	"Armand Basi In Red Blooming Bouquet 100 ml",8
+	"Montale Mukhallat 100 ml",9
+	"Montale Mango Manga 100 ml",10
+	"Montale Wild Pears 100ml",11
+	"Antonio Banderas Splash Blue Seduction 100ml",12
 	"Antonio Banderas Her Secret 80 ml",
 	"Antonio Banderas Her Golden Secret 80 ml",
 	"Antonio Banderas Electric Seduction for woman 100 ml",
