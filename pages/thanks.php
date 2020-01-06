@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php
-	
+	 header("Location:thanks.php");
 	if (isset($_POST['username'])) {
 		$username = $_POST['username'];
 		if ($username == '') {
@@ -60,11 +60,10 @@
 	$note_text = "Тема:  New user wrote!\r\nName: $username\r\nSurname: $usersurname\r\nEmail: $userEmail\r\nPhone number: $userphonenumber\r\nНазвание товара: $item";
 	if (isset($username)) {
 		mail($address, "New user wrote!", $note_text);
-		echo '<script type="text/JavaScript">
-             prompt("GeeksForGeeks");
-             </script>'
-        ;
-		echo "<script type='text/javascript'>alert('Your email was fully sent');</script>";
+		echo '<script language="javascript">';
+        echo 'alert("message successfully sent")';
+        echo '</script>';
+        exit;
 	}
 	?>
 </body>
