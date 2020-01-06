@@ -395,26 +395,32 @@
 }
 
 .rectangle {
-	height: 190px;
-	width: 190px;
-	border-radius: 20px;
-	background: rgba(255,173,173,0.81);
-	transform: rotate(45deg);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-	margin: 0 40px;
+    height: 190px;
+    width: 190px;
+    border-radius: 20px;
+    background: rgba(255, 173, 173, 0.81);
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 40px;
+    transition: 0.5s ease;
+}
+
+.rectangle:hover {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s ease;
 }
 
 
-
 .rectangle p {
-	font-family: Lobster;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 30px;
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -536,23 +542,29 @@
 }
 
 .item-pressent {
-	display: flex;
-	flex-direction: row;
-	margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
 }
 
 .item-pressent .pres {
-	margin-top: 35px;
-}
-.four-line{
-	border: 1px solid black;
+    margin-top: 35px;
 }
 
-.f-two-wrapper{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+.item-pressent .pres:hover {
+    font-size: 23px;
 }
+
+.four-line {
+    border: 1px solid black;
+}
+
+.f-two-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .f-two-wrapper img {
 	display: flex;
 	align-self: flex-start;
@@ -709,24 +721,29 @@
 	font-style: normal;
 	font-size: 21px;
 	line-height: 25px;
-	text-align: center;
-	text-transform: uppercase;
-	height: 50px;
-	width: 260px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    width: 260px;
 
-	color: #000000;
-	background: rgba(255,173,173,0.5);
-	border: none;
+    color: #000000;
+    background: rgba(255, 173, 173, 0.5);
+    border: none;
+}
+
+.sixth-button a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .sixth-button .btn:hover {
-	background: rgba(255,173,173,1);
+    background: rgba(255, 173, 173, 1);
 }
 
 /*Seventh block*/
 .seventh-block {
-	margin-top: 50px;
-	width: 100%;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .seventh-block .parallax-window{
