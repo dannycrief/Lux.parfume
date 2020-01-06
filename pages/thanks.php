@@ -63,6 +63,5 @@
 		echo "<script>alert('Your email was sent')</script>";
 	}
 	?>
-
 </body>
 </html>
