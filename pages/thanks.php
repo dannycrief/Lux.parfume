@@ -64,7 +64,7 @@
              prompt("GeeksForGeeks");
              </script>'
         ;
-		echo echo "<script type='text/javascript'>alert('Your email was sent');</script>";
+		echo "<script type='text/javascript'>alert('Your email was fully sent');</script>";
 	}
 	?>
 </body>
